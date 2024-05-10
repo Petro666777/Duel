@@ -70,7 +70,6 @@ public class PlayerMovement : CharacterMovement
                   && _canJump                        // И герой может прыгать
                   && !_isJumping)
         {                  // И прыжок сейчас не выполняется
-            Debug.Log('t');
             OnAir(true);
             _jumpTimer = 0;                   // Обнуляем таймер прыжка
 
