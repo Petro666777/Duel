@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 10
-  _bulletPrefab: {fileID: -6409028856516123732, guid: 46fcf6245c0a2be4e8f52ca7fbb090d0, type: 3}
+  _bulletPrefab: {fileID: -4976536783627163068, guid: 46fcf6245c0a2be4e8f52ca7fbb090d0, type: 3}
   _bulletDelay: 0.05
   _bulletsInRow: 7
   _reloadingDuration: 4
@@ -351,7 +351,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2634314175812581423, guid: 1919afb36bcc7354ca0aafaa08e305a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2634314175812581423, guid: 1919afb36bcc7354ca0aafaa08e305a6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -392,6 +392,10 @@ PrefabInstance:
     - target: {fileID: 4617264948352491394, guid: 1919afb36bcc7354ca0aafaa08e305a6, type: 3}
       propertyPath: m_Name
       value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 6872415557481078057, guid: 1919afb36bcc7354ca0aafaa08e305a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.391
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
